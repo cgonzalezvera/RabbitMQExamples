@@ -1,5 +1,5 @@
 # RabbitMQExamples
-
+## otro ejemplo: [https://api.cloudamqp.com/console/1529eb88-ebed-4079-9da3-19901d8086f3/details](https://www.csharp.com/article/rabbitmq-message-queue-using-net-core-6-web-api/)
 ## 1. ProducerConsumer
 Simple work queue(aka: Task Queue). Each task is delivered to exactly one worker <br />
 - Round-robin: by default, RabbitMQ sends each message to the next consumer in sequence. On average every consumer will get the same number of messages. This way of distributing messages is called round-robin <br />
